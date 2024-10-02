@@ -1,7 +1,7 @@
 /*
 Zadání: Po kliku na tlačítko zobrazte alert s textem „Ahoj“.
 */
-import './index.css';
+import './index1.css';
 
 export const Uloha1 = () => {
   const handleClick = () => {

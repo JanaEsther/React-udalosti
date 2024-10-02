@@ -2,7 +2,7 @@ import kvetinaUrl from './kvetina.svg';
 import listUrl from './list.svg';
 import slunceUrl from './slunce.svg';
 import vlockaUrl from './vlocka.svg';
-import './index.css';
+import './index3.css';
 
 /*
 Zadání: Doplňte komponentu tak, aby každé tlačítko po kliknutí vypsalo, jakou volbu uživatel
