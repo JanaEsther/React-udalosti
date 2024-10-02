@@ -1,8 +1,35 @@
-.greet {
-  background-color: rgb(218, 170, 239);
-  padding: 10px 20px;
+.buttonJaro {
+  background-color: chartreuse;
+  padding: 10px 21px;
   border: none;
   border-radius: 5px;
-  margin-top: 20px;
   font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.buttonLeto {
+  background-color: rgb(255, 208, 0);
+  padding: 10px 24px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.buttonPodzim {
+  background-color: orangered;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.buttonZima {
+  background-color: skyblue;
+  padding: 10px 19px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
