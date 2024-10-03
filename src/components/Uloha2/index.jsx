@@ -16,7 +16,9 @@ export const Uloha2 = () => {
       height={60}
       alt="hrad"
       onMouseEnter={handleMouseEnter}
+      onMouseOut={() => {
+        alert('Myš právě utekla.');
+      }}
     />
   );
 };
-
