@@ -6,6 +6,14 @@ Zadání: Předstírejme, že na stránce je složitý formulář, do kterého u
 */
 
 export const ZaverecnyBonus1 = () => {
+
+  const handleClick = (e)=>{
+    if (!confirm('Opravdu chceš z formuláře odejít')){
+      <>
+      </>
+    
+    }
+  }
   return (
     <>
       Odkaz: <a href="https://www.czechitas.cz/">www.czechitas.cz</a>
