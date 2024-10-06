@@ -6,17 +6,14 @@ Zadání: Předstírejme, že na stránce je složitý formulář, do kterého u
 */
 
 export const ZaverecnyBonus1 = () => {
-
-  const handleClick = (e)=>{
-    if (!confirm('Opravdu chceš z formuláře odejít')){
-      <>
-      </>
-    
+  const handleClick = (e) => {
+    if (!confirm('Opravdu chceš z formuláře odejít ?')) {
+      e.preventDefault();
     }
-  }
+  };
   return (
     <>
-      Odkaz: <a href="https://www.czechitas.cz/">www.czechitas.cz</a>
+      Odkaz: <a href="https://www.czechitas.cz/" onClick={handleClick}>www.czechitas.cz</a>
       <hr />
       Formulář:
       <form>
@@ -26,7 +23,7 @@ export const ZaverecnyBonus1 = () => {
           defaultValue="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aperiam vitae necessitatibus et perspiciatis consectetur, soluta quia vero porro hic, esse tempora sint eaque adipisci asperiores alias repudiandae tempore? Omnis?"
         />
         <br />
-        <button>uložit</button>
+        <button type="button" onClick={handleClick}>uložit</button>
       </form>
     </>
   );
